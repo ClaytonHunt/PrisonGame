@@ -1,4 +1,11 @@
 var Prison = Prison || {};
+
+Prison.Area = function() {
+    var self = this;
+
+    return self;
+};
+
 Prison.Game = function() {
     var self = this;
 
@@ -27,6 +34,17 @@ describe("Prison Game", function() {
     });
 
     describe("Area", function() {
+        it("Exists", function() {
+            var area = new Prison.Area();
+
+            expect(area).not.toBe(null);
+        });
+
+        it("Is a Prison Area", function() {
+            var area = new Prison.Area();
+            expect(area instanceof Prison.Area).toBeTruthy();
+        });
+
         it("Can add multiple Areas", function() {
             var area1 = "1";
             var area2 = "2";
