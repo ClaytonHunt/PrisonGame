@@ -34,16 +34,21 @@ describe("Prison Game", function() {
     });
 
     describe("Area", function() {
-        it("Exists", function() {
-            var area = new Prison.Area();
+        var area;
 
+        beforeEach(function() {
+            area = new Prison.Area();
+        });
+
+        it("Exists", function() {
             expect(area).not.toBe(null);
         });
 
         it("Is a Prison Area", function() {
-            var area = new Prison.Area();
             expect(area instanceof Prison.Area).toBeTruthy();
         });
+
+
 
         it("Can add multiple Areas", function() {
             var area1 = "1";
