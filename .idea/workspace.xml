@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80442f65-a6a4-4dbc-8948-72b8c1e2576e" name="Default" comment="" />
+    <list default="true" id="80442f65-a6a4-4dbc-8948-72b8c1e2576e" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\boot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\boot\boot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\spec\PlayerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\spec\SpecHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\src\Player.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\src\Song.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\json2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\spec" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\version.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/tests/game_tests.js" afterPath="$PROJECT_DIR$/scripts/tests/game_tests.js" />
+    </list>
     <ignored path="PrisonGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379434575942" ignored="false" />
@@ -27,7 +41,7 @@
       <file leaf-file-name="game_tests.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/tests/game_tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="1" column="45" selection-start="46" selection-end="46" vertical-scroll-proportion="0.02881356">
               <folding />
             </state>
           </provider>
@@ -46,6 +60,13 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/tests/game_tests.js" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -142,12 +163,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25934765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25934765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -225,7 +246,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/tests/game_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="1" column="45" selection-start="46" selection-end="46" vertical-scroll-proportion="0.02881356">
           <folding />
         </state>
       </provider>
