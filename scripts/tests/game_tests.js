@@ -2,7 +2,7 @@ var Prison = Prison || {};
 
 Prison.Area = function(width) {
     var self = this;
-    __ = {};
+    var __ = {};
 
     __.constructorChecks = function() {
         if(!width)
@@ -61,7 +61,7 @@ describe("Prison Game", function() {
         });
 
         it("throws when width is not passed to constructor", function() {
-            expect(function() { new Prison.Area(); }).toThrow();
+            expect(function() { return new Prison.Area(); }).toThrow();
         });
 
         it("has width", function() {
