@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="80442f65-a6a4-4dbc-8948-72b8c1e2576e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/tests/game_tests.js" afterPath="$PROJECT_DIR$/scripts/tests/game_tests.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrisonGame.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379435537538" ignored="false" />
-    <file path="/game_tests.js" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379436421966" ignored="false" />
+    <file path="/game_tests.js" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379436591477" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379436625744" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
       <file leaf-file-name="game_tests.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/tests/game_tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="12" selection-start="866" selection-end="866" vertical-scroll-proportion="0.7803618">
+            <state line="36" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="0.69250643">
               <folding />
             </state>
           </provider>
@@ -254,7 +254,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/tests/game_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="866" selection-end="866" vertical-scroll-proportion="0.7803618">
+        <state line="36" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="0.69250643">
           <folding />
         </state>
       </provider>
