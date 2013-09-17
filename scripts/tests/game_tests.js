@@ -1,7 +1,19 @@
 var Prison = Prison || {};
 
-Prison.Area = function() {
+Prison.Area = function(width) {
     var self = this;
+    __ = {};
+
+    __.constructorChecks = function() {
+        if(!width)
+            throw 'Area width is required!';
+    };
+
+    self.width = width;
+
+    (function() {
+        __.constructorChecks();
+    }());
 
     return self;
 };
@@ -26,7 +38,7 @@ describe("Prison Game", function() {
     });
 
     it("Exists", function(){
-        expect(game).not.toBe(null);
+        expect(game).not.toBe(undefined);
     });
 
     it("Is a Prison Game", function() {
@@ -37,18 +49,25 @@ describe("Prison Game", function() {
         var area;
 
         beforeEach(function() {
-            area = new Prison.Area();
+            area = new Prison.Area(10);
         });
 
         it("Exists", function() {
-            expect(area).not.toBe(null);
+            expect(area).not.toBe(undefined);
         });
 
         it("Is a Prison Area", function() {
             expect(area instanceof Prison.Area).toBeTruthy();
         });
 
+        it("throws when width is not passed to constructor", function() {
+            expect(function() { new Prison.Area(); }).toThrow();
+        });
 
+        it("has width", function() {
+            expect(area.width).not.toBe(undefined);
+            expect(area.width).not.toBe(null);
+        });
 
         it("Can add multiple Areas", function() {
             var area1 = "1";
