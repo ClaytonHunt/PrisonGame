@@ -72,7 +72,7 @@
     desc("Start Karma");
     task("karma", function () {
         var config = {};
-        sh("node node_modules/karma/bin/karma start");
+        sh("START node node_modules/karma/bin/karma start");
     });
 
     desc("Test Everything");
