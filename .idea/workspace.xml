@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80442f65-a6a4-4dbc-8948-72b8c1e2576e" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\boot.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\boot\boot.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\spec\PlayerSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\spec\SpecHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\src\Player.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\example\src\Song.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\jasmine-html.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\jasmine.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\jasmine.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\json2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\spec" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\PrisonGame\scripts\thridParty\jasmine\version.rb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/tests/game_tests.js" afterPath="$PROJECT_DIR$/scripts/tests/game_tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PrisonGame.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379434575942" ignored="false" />
+    <file path="/Dummy.txt" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379435537538" ignored="false" />
+    <file path="/game_tests.js" changelist="80442f65-a6a4-4dbc-8948-72b8c1e2576e" time="1379436421966" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +31,7 @@
       <file leaf-file-name="game_tests.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/tests/game_tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="45" selection-start="46" selection-end="46" vertical-scroll-proportion="0.02881356">
+            <state line="41" column="12" selection-start="866" selection-end="866" vertical-scroll-proportion="0.7803618">
               <folding />
             </state>
           </provider>
@@ -133,6 +123,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrisonGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PrisonGame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -168,12 +176,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25934765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25934765" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5003978" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.49960223" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -246,7 +254,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/tests/game_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="45" selection-start="46" selection-end="46" vertical-scroll-proportion="0.02881356">
+        <state line="41" column="12" selection-start="866" selection-end="866" vertical-scroll-proportion="0.7803618">
           <folding />
         </state>
       </provider>
