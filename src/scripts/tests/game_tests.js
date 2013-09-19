@@ -45,12 +45,12 @@
             });
 
             it('can have block', function () {
-                var pt = new Prison.Block(0, 0, 0);
+                var pt = new Prison.Block(0, 0);
                 area.addBlock(pt);
 
-                expect(area.block).not.toBe(undefined);
-                expect(area.block).not.toBe(null);
-                expect(area.block[0]).toBe(pt);
+                expect(area.blocks).not.toBe(undefined);
+                expect(area.blocks).not.toBe(null);
+                expect(area.blocks[0]).toBe(pt);
             });
 
             it("Can add multiple Areas", function () {
@@ -63,17 +63,37 @@
         });
 
         describe("Prison Block", function () {
-            var Block;
+            var block;
             beforeEach(function () {
-                Block = new Prison.Block();
+                block = new Prison.Block(1, 2);
             });
 
             it("Exists", function () {
-                expect(Block).not.toBe(undefined);
+                expect(block).not.toBe(undefined);
             });
 
             it("Is a Prison Block", function () {
-                expect(Block instanceof Prison.Block).toBeTruthy();
+                expect(block instanceof Prison.Block).toBeTruthy();
+            });
+
+            it('requires x value in constructor', function () {
+                expect(function () {
+                    var block = new Prison.Block();
+                }).toThrow();
+            });
+
+            it('requires y value in constructor', function () {
+                expect(function () {
+                    var block = new Prison.Block(0);
+                }).toThrow();
+            });
+
+            it('sets x value from constructor', function () {
+                expect(block.x).toBe(1);
+            });
+
+            it('sets y value from constructor', function () {
+                expect(block.y).toBe(2);
             });
         });
     });

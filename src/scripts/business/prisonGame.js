@@ -1,8 +1,24 @@
 var Prison = Prison || {};
 
-Prison.Block = function () {
+Prison.Block = function (x, y) {
     "use strict";
     var self = this;
+    var __ = {};
+
+    __.constructorChecks = function () {
+        if (!x && x !== 0)
+            throw 'X value is required!';
+
+        if (!y && y !== 0)
+            throw 'X value is required!';
+    };
+
+    self.x = x;
+    self.y = y;
+
+    (function () {
+        __.constructorChecks();
+    }());
 
     return self;
 };
@@ -10,15 +26,14 @@ Prison.Block = function () {
 Prison.Area = function () {
     "use strict";
     var self = this;
-    var __ = {};
 
-    self.block = [];
+    self.blocks = [];
 
     self.addBlock = function (Block) {
         if (!Block || !(Block instanceof Prison.Block))
             throw 'Argument type incorrect use Prison.Block.';
 
-        self.block.push(Block);
+        self.blocks.push(Block);
     };
 
     return self;
