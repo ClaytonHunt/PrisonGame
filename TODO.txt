@@ -1,0 +1,20 @@
+Minimum Marketable Feature:
+* Character is in prison
+
+User stories
+* Show Prison Cell
+- Show Character
+- Character can Walk
+- Character can sleep in bed
+
+Egineering Tasks:
+* Create Tile system
+- Design Cell using tile system
++ Render tiles correctly to screen
+
+Design Tasks:
+* Create floor tile image
+- Create wall tile image
+- Create prison bars tile image
+- Create character image(s)
+- Create bed tile image(s)
