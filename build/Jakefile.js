@@ -2,6 +2,11 @@
 (function () {
     "use strict";
 
+    desc("Deploy to GitHub and Azure");
+    task("deploy", ["default"], function() {
+        sh("git push", colors.red + "DEPLOY FAILED" + colors.reset, complete);
+    }, { async: true });
+
     task("default", ["lint", "test"], function () {
         console.log("");
         console.log(colors.green + "------");
