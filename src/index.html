@@ -2,9 +2,28 @@
 <html>
 <head>
     <title>Prison Game</title>
+    <script src="scripts/business/prisonGame.js"></script>
+    <script src="scripts/thirdParty/knockout/knockout-2.3.0.js"></script>
+    <script src="scripts/thirdParty/JQuery/jquery-1.10.2.min.js"></script>
 </head>
 <body>
     <h1>Prison Game</h1>
     <h2>Currently under construction</h2>
+    <section data-bind="foreach: blocks">
+        <div data-bind="style: { position: 'absolute', marginTop: x + 'px', marginLeft: y + 'px' }">5</div>
+    </section>
+    <script>
+        var prison = new Prison.Game();
+        var area1 = new Prison.Area();
+
+        area1.addBlock(new Prison.Block(0, 0));
+        area1.addBlock(new Prison.Block(0, 10));
+        area1.addBlock(new Prison.Block(10, 0));
+        area1.addBlock(new Prison.Block(10, 10));
+
+        prison.addArea(area1);
+
+        ko.applyBindings(area1, $('section')[0]);
+    </script>
 </body>
 </html>
