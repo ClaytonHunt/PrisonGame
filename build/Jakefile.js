@@ -75,10 +75,10 @@
     });
 
     desc("Test Everything");
-    task("test", ["test client"]);
+    task("test", ["test_client"]);
 
     desc("Test Browser Code");
-    task("test client", [], function () {
+    task("test_client", [], function () {
         sh("node node_modules/karma/bin/karma run", colors.red + "CLIENT TESTS FAILED" + colors.reset, complete);
     }, { async: true });
 

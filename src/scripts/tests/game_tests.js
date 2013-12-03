@@ -1,27 +1,29 @@
-/* globals, describe, beforeEach, it, expect, Prison */
-(function () {
+/* globals, describe, beforeEach, it, expect */
+(function (module) {
     "use strict";
 
     describe("Prison Game", function () {
         var game;
 
         beforeEach(function () {
-            game = new Prison.Game();
+            game = new module.Game();
         });
 
-        it("Exists", function () {
-            expect(game).not.toBe(undefined);
-        });
+        describe("In General", function() {
+            it("Exists", function () {
+                expect(game).not.toBe(undefined);
+            });
 
-        it("Is a Prison Game", function () {
-            expect(game instanceof Prison.Game).toBeTruthy();
+            it("Is a Prison Game", function () {
+                expect(game instanceof module.Game).toBeTruthy();
+            });
         });
 
         describe("Area", function () {
             var area;
 
             beforeEach(function () {
-                area = new Prison.Area();
+                area = new module.Area();
             });
 
             it("Exists", function () {
@@ -29,7 +31,7 @@
             });
 
             it("Is a Prison Area", function () {
-                expect(area instanceof Prison.Area).toBeTruthy();
+                expect(area instanceof module.Area).toBeTruthy();
             });
 
             it('throws when add Block is given null', function () {
@@ -45,7 +47,7 @@
             });
 
             it('can have block', function () {
-                var pt = new Prison.Block(0, 0);
+                var pt = new module.Block(0, 0);
                 area.addBlock(pt);
 
                 expect(area.blocks).not.toBe(undefined);
@@ -65,7 +67,7 @@
         describe("Prison Block", function () {
             var block;
             beforeEach(function () {
-                block = new Prison.Block(1, 2);
+                block = new module.Block(1, 2);
             });
 
             it("Exists", function () {
@@ -73,18 +75,18 @@
             });
 
             it("Is a Prison Block", function () {
-                expect(block instanceof Prison.Block).toBeTruthy();
+                expect(block instanceof module.Block).toBeTruthy();
             });
 
             it('requires x value in constructor', function () {
                 expect(function () {
-                    var block = new Prison.Block();
+                    new module.Block();
                 }).toThrow();
             });
 
             it('requires y value in constructor', function () {
                 expect(function () {
-                    var block = new Prison.Block(0);
+                    new module.Block(0);
                 }).toThrow();
             });
 
@@ -97,4 +99,4 @@
             });
         });
     });
-}());
+}(Prison));
