@@ -1,10 +1,8 @@
 /* Copyright (c) 2012 James Shore - See README.txt for license */
 "use strict";
 
-
 var jshint = require("jshint").JSHINT;
 var fs = require("fs");
-
 
 exports.validateSource = function(sourceCode, options, globals, description) {
 	description = description ? description + " " : "";
@@ -22,12 +20,10 @@ exports.validateSource = function(sourceCode, options, globals, description) {
 	return pass;
 };
 
-
 exports.validateFile = function(filename, options, globals) {
 	var sourceCode = fs.readFileSync(filename, "utf8");
 	return exports.validateSource(sourceCode, options, globals, filename);
 };
-
 
 exports.validateFileList = function(fileList, options, globals) {
 	var pass = true;
@@ -36,18 +32,3 @@ exports.validateFileList = function(fileList, options, globals) {
 	});
 	return pass;
 };
-
- 
- 
-
-
- 
-   
-
-Status
- API
- Training
- Shop
- Blog
- About
- ?
